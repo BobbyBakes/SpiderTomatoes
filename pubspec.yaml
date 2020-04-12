@@ -1,0 +1,34 @@
+name: SpiderTomatoes
+description: A new Flutter project.
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^0.9.5
+  cupertino_icons: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+   - assets/images/crate.png
+   - assets/images/Ninja.png
+   - assets/images/Moon.png
+   - assets/images/CherryTomatoes.png
+   - assets/images/explosion.png
+   - assets/audio/explosion.mp3
+   - assets/audio/miss.mp3
+   - assets/audio/music.ogg
+
+  fonts:
+   - family: Halo
+     fonts:
+      - asset: assets/fonts/halo.ttf
